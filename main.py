@@ -108,3 +108,12 @@ with col2:
 
 st.subheader("📊 약국 리스트")
 st.dataframe(filtered[["사업장명", "소재지전체주소", "소재지전화"]], use_container_width=True)
+
+st.markdown("---")
+st.markdown("""
+<div style='text-align: center; font-size: 16px;'>
+    👉 <a href='https://hospitalfind-2rb7e5qppy4ey4fjeapp5gt.streamlit.app/' target='_blank'>
+    🏥 병원 위치 확인 페이지로 이동하기
+    </a>
+</div>
+""", unsafe_allow_html=True)
